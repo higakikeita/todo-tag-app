@@ -1,4 +1,4 @@
-FROM ruby:2.5.１
+FROM ruby:2.5.1
 
 # 必要なパッケージのインストール（基本的に必要になってくるものだと思うので削らないこと）
 RUN apt-get update -qq && \
